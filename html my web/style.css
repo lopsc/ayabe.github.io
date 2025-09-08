@@ -1,0 +1,105 @@
+/* 背景設置 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('sss.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    color: #000;
+    text-align: center;
+  }
+
+
+  
+  /* 容器樣式 */
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
+    border-radius: 15px; /* 圓角外觀 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 投影效果 */
+    backdrop-filter: blur(10px); /* 背景模糊效果 */
+  }
+  
+  /* 頭像樣式 */
+  .profile-pic {
+    margin: 20px auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+  }
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* 標題和段落樣式 */
+  h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+  }
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+   /* 按鈕連結樣式 */
+   .links {
+    margin-top: 20px;
+  }
+  .links a {
+    display: flex;
+    align-items: center; /* 垂直居中對齊 */
+    justify-content: center; /* 水平居中文字 */
+    position: relative; /* 為了讓圖標保持在左側 */
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    padding: 10px 40px; /* 增加左右內邊距，為圖標留空間 */
+    text-decoration: none;
+    color: #333; /* 修改文字顏色為深色，適合透明背景 */
+    background: transparent; /* 背景完全透明 */
+    border: 2px solid #ffffff; /* 添加邊框顏色 */
+    border-radius: 5px; /* 圓角設計 */
+    font-size: 16px;
+    transition: all 0.3s; /* 添加過渡效果 */
+  }
+  .links a:hover {
+    background: rgba(248, 154, 248, 0.2); /* 懸停時添加淡藍色背景 */
+    color: #000000; /* 懸停時文字顏色改為藍色 */
+  }
+  .links img {
+    position: absolute; /* 圖標固定在左側 */
+    left: 10px; /* 圖標距離按鈕左邊緣的距離 */
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Discord 按鈕樣式 */
+  .discord-section {
+    margin-top: 20px;
+  }
+  .discord-section button {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    background: #5865F2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .discord-section button:hover {
+    background: #4752C4;
+  }
